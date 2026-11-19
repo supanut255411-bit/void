@@ -1,0 +1,28 @@
+{
+ "model": {
+  "type": "minecraft:select",
+  "property": "minecraft:display_context",
+  "cases": [
+   {
+    "when": "gui",
+    "model": {
+     "type": "minecraft:model",
+     "model": "voidreaver:item/voidreaver_icon"
+    }
+   }
+  ],
+  "fallback": {
+   "type": "minecraft:condition",
+   "property": "minecraft:custom_model_data",
+   "index": 0,
+   "on_true": {
+    "type": "minecraft:model",
+    "model": "voidreaver:item/voidreaver_chain"
+   },
+   "on_false": {
+    "type": "minecraft:model",
+    "model": "voidreaver:item/voidreaver"
+   }
+  }
+ }
+}

@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "voidreaver",
+	"version": "${version}",
+	"name": "The Voidreaver",
+	"description": "A legendary chain-and-mace superweapon: right-click to grapple at 50 blocks, left-click to smash.",
+	"authors": [
+		"You"
+	],
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.voidreaver.VoidreaverMod"
+		],
+		"client": [
+			"dev.voidreaver.client.VoidreaverClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "voidreaver.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

@@ -1,0 +1,19 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "equipment",
+ "key": {
+  "N": "minecraft:netherite_block",
+  "S": "minecraft:nether_star",
+  "C": "minecraft:chain",
+  "M": "minecraft:mace"
+ },
+ "pattern": [
+  "NSN",
+  "CMC",
+  " C "
+ ],
+ "result": {
+  "id": "voidreaver:voidreaver",
+  "count": 1
+ }
+}

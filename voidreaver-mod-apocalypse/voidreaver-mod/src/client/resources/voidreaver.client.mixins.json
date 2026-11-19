@@ -1,0 +1,12 @@
+{
+	"required": false,
+	"package": "dev.voidreaver.client.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CameraMixin",
+		"GameRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 0
+	}
+}
